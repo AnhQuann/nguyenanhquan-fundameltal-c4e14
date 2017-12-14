@@ -1,4 +1,4 @@
-from exercise_9 import get_even_list
+from exercise_09 import get_even_list
 
 even_list = get_even_list([1, 2, 5, -10, 9, 6])
 

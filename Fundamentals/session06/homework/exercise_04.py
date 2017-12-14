@@ -1,5 +1,5 @@
 from turtle import *
-from exercise_3 import draw_square
+from exercise_03 import draw_square
 
 for i in range(30):
     draw_square(i * 5, 'red')

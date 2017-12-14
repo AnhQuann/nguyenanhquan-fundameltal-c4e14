@@ -1,4 +1,4 @@
-from exercise_7 import remove_dollar_sign
+from exercise_07 import remove_dollar_sign
 
 string_with_no_dollars = remove_dollar_sign("$80% percent of $life is to show $up")
 if string_with_no_dollars == "80% percent of life is to show up":

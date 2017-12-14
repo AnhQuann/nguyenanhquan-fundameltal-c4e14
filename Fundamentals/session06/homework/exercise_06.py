@@ -1,5 +1,5 @@
 from turtle import *
-from exercise_5 import draw_star
+from exercise_05 import draw_star
 
 speed(0)
 color('blue')
