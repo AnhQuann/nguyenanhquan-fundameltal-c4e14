@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Flask intro</title>
+  </head>
+  <body>
+    <h1>{{ article_tile }}</h1>
+
+    {% for post in posts %}
+      <p>{{ post }}</p>
+    {% endfor %}
+  </body>
+</html>
