@@ -47,7 +47,7 @@ def new_service():
         # print('saved')
 
         flash('Đã đăng ký thành công')
-        return redirect(url_for('new_service.html'))
+        return redirect(url_for('new_service'))
 
 @app.route('/edit/<service_id>', methods = ['GET', 'POST'])
 def edit_service(service_id):
@@ -55,7 +55,20 @@ def edit_service(service_id):
     if service is None:
         return 'Not found'
     else:
-        return render_template('edit_service.html', service = service)
+        if request.method == 'GET':
+            return render_template('edit_service.html', service = service)
+        elif request.method == 'POST':
+            form = request.form
+            name = form['name']
+            yob = form['yob']
+            gender = form['gender']
+            height = form['height']
+            phone = form['phone']
+
+            service.update(set__name = name, set__yob = yob, set__gender = gender, set__height = height, set__phone = phone)
+
+
+            return redirect(url_for('admin'))
 
 if __name__ == '__main__':
   app.run(debug=True)

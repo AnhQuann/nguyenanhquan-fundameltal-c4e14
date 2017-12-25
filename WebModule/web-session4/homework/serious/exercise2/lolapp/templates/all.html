@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>All of Champions</title>
+  </head>
+  <body>
+    {% for champ in champs %}
+      <img src="..\static\{{ champ.image }}" width="100" height="100">
+      <span><b>Name: </b>{{ champ.name }} <b>Class: </b>{{ champ.role }}</span><br>
+    {% endfor %}
+  </body>
+</html>
