@@ -38,10 +38,11 @@ def edit(champ_id):
             return render_template('edit.html', champ = champ)
         elif request.method == 'POST':
             form = request.form
+            image = form['image']
             name = form['name']
             role = form['role']
 
-            champ.update(set__name = name, set__role = role)
+            champ.update(set__name = name, set__role = role, set__image = image)
 
             return redirect(url_for('admin'))
 
