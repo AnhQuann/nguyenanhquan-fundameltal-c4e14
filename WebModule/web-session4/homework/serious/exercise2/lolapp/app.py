@@ -35,7 +35,7 @@ def edit(champ_id):
         return 'Not found!'
     else:
         if request.method == 'GET':
-            return render_template('edit.html', champ = champ)
+            return render_template('edit.html', champ = champ, champs = Champ.objects())
         elif request.method == 'POST':
             form = request.form
             image = form['image']
