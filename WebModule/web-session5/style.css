@@ -1,0 +1,176 @@
+/* h1 {
+  color: red;
+} */
+
+#first-heading{
+  color: blue;
+}
+
+.text-gray {
+  color: gray;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-underline {
+  text-decoration: none;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.text-uppercase {
+  text-transform: lowercase;
+}
+
+.font-IndieFlower {
+  font-family: 'Indie Flower', cursive;
+}
+
+.font-italic {
+  font-style: italic;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.font-size-40px {
+  font-size: 40px;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.h-500 {
+  height: 500px;
+}
+
+.bg-gray {
+  background-color: gray;
+}
+
+.bg-image {
+  background-image: url("https://static.pexels.com/photos/160699/girl-dandelion-yellow-flowers-160699.jpeg");
+}
+
+.bg-cover {
+  background-size: contain;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.bg-fix {
+  background-attachment: fixed;
+}
+
+.bg-gray {
+  background-color: gray;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.bg-green {
+  background-color: green;
+}
+
+.bg-yellow {
+  background-color: yellow;
+}
+
+.bg-blue {
+  background-color: blue;
+}
+
+.bg-lightgreen {
+  background-color: lightgreen;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.h-200 {
+  height: 200px;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+.d-inline {
+  display: inline;
+}
+
+.float-right {
+  float: right;
+}
+
+.border-purple {
+  border: 1px solid red;
+}
+
+.mt-50px {
+  margin-top: 50px;
+}
+
+.ml-20px {
+  margin-left: 20px;
+}
+
+.mr-30px {
+  margin-right: 50px;
+}
+
+.mb-30px {
+  margin-bottom: 30px;
+}
+
+#margin-element {
+  margin: 100px 200px;
+}
+
+.w-100px {
+  width: 100px;
+}
+
+.h-100px {
+  height: 100px;
+}
+#padding-element {
+  padding: 10px 20px 10px 100px;
+}
+
+.m-10px {
+  margin: 10px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.row-wrap {
+  flex-flow: row wrap;
+}
+
+.justify-content-center {
+  justify-content: space-around;
+}
+
+.items-center {
+  align-items: center;
+}
+ .align-content-center {
+   align-content: center;
+ }

@@ -1,0 +1,73 @@
+body {
+  background-color: rgb(219, 199, 13);
+}
+
+.nav {
+  border: 1px solid red;
+  border-width: 1px 0;
+  width: 100%;
+  background-color:#2f2e2a;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.nav li {
+  display: inline;
+
+}
+
+.nav a {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  transition: 0.5s;
+}
+
+.p-20 {
+  padding: 0px 40px;
+}
+
+.nav a:hover {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid red;
+  padding: 0 5px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+
+.item {
+  width: 40%;
+  height: 1000px;
+}
+
+.image {
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#fact-image {
+  background-image: url("http://images1.cafef.vn/Images/Uploaded/Share/5ba9aa90cb529814783d683aa4d61dde/2014/04/24/7.jpg");
+}
+
+#quote-image {
+  background-image: url("https://data.whicdn.com/images/61485492/large.png");
+}
+
+#poem-image {
+  background-image: url("http://1.bp.blogspot.com/-0TNnF0K4jBw/T3TDXgtuUBI/AAAAAAAAMFE/NgEGJyalMaw/s1600/%D9%81%D8%B1%D8%B6+%DA%A9%D8%B1%D9%88%DB%94+%D8%A7%D8%A8%D9%86+%D8%A7%D9%86%D8%B4%D8%A7.jpg");
+}
+
+.text {
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+}
+
+.text p {
+  margin: 0px;
+}

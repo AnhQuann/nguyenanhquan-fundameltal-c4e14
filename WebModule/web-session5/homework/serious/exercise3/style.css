@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+  width: 20%;
+}
+
+.small-red {
+  color: red;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.font-roboto {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+}
+
+.date {
+  font-size: 10px;
+}

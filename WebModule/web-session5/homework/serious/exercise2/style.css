@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  display: flex;
+  border: 1px solid gray;
+  border-width: 1px 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  justify-content: center;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+}
+
+.nav a:hover {
+  background: #000000;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 10px 10px;
+  border-radius: 100px;
+}
+
+.item {
+  padding: 20px 150px;
+}
+
+.image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.image img {
+  width: 15%;
+}

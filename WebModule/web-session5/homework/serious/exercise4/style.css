@@ -1,0 +1,42 @@
+.container {
+  overflow: auto;
+  width: 30%;
+}
+
+
+.oliver {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  float: right;
+  padding-left: 10px;
+}
+
+.oliver img {
+  width: 100%;
+}
+
+p {
+  font-size: 21px;
+  margin: 0 auto;
+}
+
+small {
+  color: gray;
+}
+
+p:first-letter {
+    float: left;
+    font-size: 45px;
+    line-height: 1;
+    font-weight: bold;
+    margin-right: 9px;
+}
+
+p {
+  font-family: 'Crimson Text', serif;
+}
+
+a {
+  color: black;
+}
