@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HomePage</title>
+    {% include 'meta-data.html' %}
+  </head>
+  <body class="bg-index">
+      <div class="mt-400">
+        <h1 class="text-center">Welcome to Guide for League of Legend</h1>
+        <div class="text-center mt-4 font-weight-bold">
+          <a href="{{ url_for('all') }}">ALL CHAMPIONS</a>
+          <a href="#">Assassin</a>
+          <a href="#">Maskman</a>
+          <a href="#">Mage</a>
+          <a href="#">Support</a>
+          <a href="#">Tank</a>
+          <a href="#">Fighter</a>
+        </div>
+      </div>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+.font-merri {
+    font-family: 'Merriweather', serif;
+}
+
+.mb-600px {
+  margin-bottom: 600px;
+}
+
+.bg-male {
+  background-image: url('image/male.jpg')
+}
+
+.bg-female {
+  background-image: url('image/female.jpg')
+}
+
+.h-350px {
+  height: 350px;
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.font-size-40 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.bg-night {
+  background-image: url('image/night.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.w-200 {
+  width: 200px;
+}
+
+.h-200 {
+  height: 200px;
+}
+
+.object-fit-cover {
+  object-fit: cover;
+}
+
+.bg-gray {
+  background-color: rgb(204, 204, 204);
+}
