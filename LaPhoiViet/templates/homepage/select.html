@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    {% for cigar in cigars %}
+      {% if cigar.brand == 'Richmond' %}
+        <img src="../../static/images/Richmond/{{ cigar.image }}" width="100" height="100">
+      {% elif cigar.brand == 'Marlboro' %}
+        <img src="../../static/images/Marlboro/{{ cigar.image }}" width="100" height="100">
+      {% endif %}
+      <p>{{ cigar.name }}</p>
+    {% endfor %}
+
+    <form class="" method="post">
+      <input type="search" name="cigar_type" list="CigarTypes" placeholder="Type..." required>
+      <datalist id="CigarTypes">
+        {% for cigar in cigars %}
+          <option value="{{ cigar.cigar_type }}">
+        {% endfor %}
+      </datalist>
+
+      <br><br>
+
+      <input type="submit" value="Search">
+      <input type="reset" value="Reset">
+    </form>
+  </body>
+</html>

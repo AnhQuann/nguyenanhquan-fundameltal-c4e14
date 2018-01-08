@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    {% for cigar in cigars %}
+      <img src="../../static/images/{{ cigar.brand }}/{{ cigar.image }}" width="100" height="100">
+      <p>{{cigar.name}}</p>
+    {% endfor %}
+  </body>
+</html>

@@ -13,7 +13,7 @@ def index():
 
 @app.route('/search/<int:gender>')
 def search(gender):
-    filtered_services = Service.objects(gender=gender, occupied = False)
+    filtered_services = Service.objects(gender=gender)
     return render_template('search.html', all_services = filtered_services)
 
 @app.route('/admin')
