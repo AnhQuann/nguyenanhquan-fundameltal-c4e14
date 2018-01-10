@@ -7,6 +7,22 @@
   <body>
     <a href="{{ url_for('select', brand = 'Richmond') }}">Richmond</a>
     <a href="{{ url_for('select', brand = 'Marlboro') }}">Marlboro</a>
+    <form class="" method="post">
+
+      <br><br>
+
+      <input type="search" name="name" list="CigarNames" placeholder="" required>
+      <datalist id="CigarNames">
+        {% for cigar in cigars %}
+          <option value="{{ cigar.name }}">
+        {% endfor %}
+      </datalist>
+
+      <br><br>
+
+      <input type="submit" value="Search">
+      <input type="reset" value="Reset">
+    </form>
 
   </body>
 </html>

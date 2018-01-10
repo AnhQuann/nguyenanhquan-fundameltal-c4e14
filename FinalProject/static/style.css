@@ -1,0 +1,63 @@
+.width-80per{
+  width: 80%;
+}
+.width-30per{
+  width: 30%;
+}
+.w-80{
+  width: 80%;
+}
+.h-500px{
+  height: 500px;
+}
+.w-100per{
+  width: 100%
+}
+.h-500px{
+  height: 500px;
+}
+.w-first{
+  width: 85%;
+}
+.w-500px{
+  width: 500px;
+}
+.h-400px{
+  height: 400px;
+}
+.h-300px{
+  height: 300px;
+}
+.h-200px{
+  height: 200px;
+}
+.bg-black{
+  background-color: black;
+}
+.background-size-cover{
+  background-size: cover;
+}
+.background-fixed{
+  background-attachment: fixed;
+}
+.object-fit-cover{
+  object-fit: cover; /* cho ảnh vừa ko bị dãn*/
+}
+.object-fit-contain{
+  object-fit: contain;
+}
+/* @media only screen and (max-width: 768px) {
+    [class*="col-"] {
+        width: 100%;
+    } */
+.image-header {
+   object-fit: contain;
+   max-width: 100%;
+}
+.bg-header-smoke{
+  background-image: url("image/cover/cover.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-height: 100%;
+}
